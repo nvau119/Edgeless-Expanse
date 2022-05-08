@@ -1,0 +1,34 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "mercenary_axe",
+    "customModelName": "Normal",
+    "name": "Mercenary Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 8.0,
+    "attackSpeed": 1.5999999999999999,
+    "enchantability": 16,
+    "damageVsEntity": 6.5,
+    "usageCount": 450,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Items.LEATHER"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

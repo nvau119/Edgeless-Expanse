@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "edges_of_light:blocks/titanium_ore",
+    "up": "edges_of_light:blocks/titanium_ore",
+    "north": "edges_of_light:blocks/titanium_ore",
+    "east": "edges_of_light:blocks/titanium_ore",
+    "south": "edges_of_light:blocks/titanium_ore",
+    "west": "edges_of_light:blocks/titanium_ore",
+    "particle": "edges_of_light:blocks/titanium_ore"
+  }
+}
