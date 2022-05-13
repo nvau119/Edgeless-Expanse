@@ -104,12 +104,31 @@
       "locked_code": false,
       "registry_name": "titanium_ore",
       "path": "~/Items/Mid-Game Gear/FlamebreakerGear - Titanium"
+    },
+    {
+      "name": "FlawedAmberGemstone",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flawed_amber_gemstone",
+      "path": "~/Items/Gemstones/Flawed"
+    },
+    {
+      "name": "FlawedAmethystGemstone",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flawed_amethyst_gemstone",
+      "path": "~/Items/Gemstones/Flawed"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.edges_of_light.flawed_amber_gemstone": "Flawed Amber Gemstone",
       "item.edges_of_light.rough_sapphire_gemstone": "Rough Sapphire Gemstone",
       "item.edges_of_light.mercenary_chestplate": "Mercenary Chestplate",
       "item.edges_of_light.titanium": "Titanium",
@@ -118,6 +137,7 @@
       "item.edges_of_light.rough_jasper_gemstone": "Rough Jasper Gemstone",
       "item.edges_of_light.rough_jade_gemstone": "Rough Jade Gemstone",
       "item.edges_of_light.mercenary_helmet": "Mercenary Helmet",
+      "item.edges_of_light.flawed_amethyst_gemstone": "Flawed Amethyst Gemstone",
       "item.edges_of_light.mercenary_axe": "Mercenary Axe",
       "item.edges_of_light.rough_amber_gemstone": "Rough Amber Gemstone",
       "item.edges_of_light.mercenary_leggings": "Mercenary Leggings",

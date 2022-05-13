@@ -23,6 +23,8 @@ import net.mcreator.edgesoflight.item.RoughAmethystGemstoneItem;
 import net.mcreator.edgesoflight.item.RoughAmberGemstoneItem;
 import net.mcreator.edgesoflight.item.MercenaryItem;
 import net.mcreator.edgesoflight.item.MercenaryAxeItem;
+import net.mcreator.edgesoflight.item.FlawedAmethystGemstoneItem;
+import net.mcreator.edgesoflight.item.FlawedAmberGemstoneItem;
 import net.mcreator.edgesoflight.EdgesOfLightMod;
 
 public class EdgesOfLightModItems {
@@ -43,6 +45,9 @@ public class EdgesOfLightModItems {
 	public static final RegistryObject<Item> MERCENARY_AXE = REGISTRY.register("mercenary_axe", () -> new MercenaryAxeItem());
 	public static final RegistryObject<Item> TITANIUM = REGISTRY.register("titanium", () -> new TitaniumItem());
 	public static final RegistryObject<Item> TITANIUM_ORE = block(EdgesOfLightModBlocks.TITANIUM_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> FLAWED_AMBER_GEMSTONE = REGISTRY.register("flawed_amber_gemstone", () -> new FlawedAmberGemstoneItem());
+	public static final RegistryObject<Item> FLAWED_AMETHYST_GEMSTONE = REGISTRY.register("flawed_amethyst_gemstone",
+			() -> new FlawedAmethystGemstoneItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
