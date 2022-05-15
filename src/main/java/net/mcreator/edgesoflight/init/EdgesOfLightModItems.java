@@ -7,6 +7,7 @@ package net.mcreator.edgesoflight.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -48,6 +49,8 @@ public class EdgesOfLightModItems {
 	public static final RegistryObject<Item> FLAWED_AMBER_GEMSTONE = REGISTRY.register("flawed_amber_gemstone", () -> new FlawedAmberGemstoneItem());
 	public static final RegistryObject<Item> FLAWED_AMETHYST_GEMSTONE = REGISTRY.register("flawed_amethyst_gemstone",
 			() -> new FlawedAmethystGemstoneItem());
+	public static final RegistryObject<Item> SQUIRREL = REGISTRY.register("squirrel_spawn_egg",
+			() -> new ForgeSpawnEggItem(EdgesOfLightModEntities.SQUIRREL, -26368, -6724096, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

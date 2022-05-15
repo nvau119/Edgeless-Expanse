@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.edgesoflight.init.EdgesOfLightModItems;
+import net.mcreator.edgesoflight.init.EdgesOfLightModEntities;
 import net.mcreator.edgesoflight.init.EdgesOfLightModBlocks;
 
 import java.util.function.Supplier;
@@ -47,6 +48,7 @@ public class EdgesOfLightMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		EdgesOfLightModBlocks.REGISTRY.register(bus);
 		EdgesOfLightModItems.REGISTRY.register(bus);
+		EdgesOfLightModEntities.REGISTRY.register(bus);
 
 	}
 

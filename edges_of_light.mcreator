@@ -122,6 +122,15 @@
       "locked_code": false,
       "registry_name": "flawed_amethyst_gemstone",
       "path": "~/Items/Gemstones/Flawed"
+    },
+    {
+      "name": "Squirrel",
+      "type": "livingentity",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "squirrel",
+      "path": "~/Mobs/Squirrel"
     }
   ],
   "variable_elements": [],
@@ -132,12 +141,14 @@
       "item.edges_of_light.rough_sapphire_gemstone": "Rough Sapphire Gemstone",
       "item.edges_of_light.mercenary_chestplate": "Mercenary Chestplate",
       "item.edges_of_light.titanium": "Titanium",
+      "entity.edges_of_light.squirrel": "Squirrel",
       "item.edges_of_light.rough_amethyst_gemstone": "Rough Amethyst Gemstone",
       "item.edges_of_light.mercenary_boots": "Mercenary Boots",
       "item.edges_of_light.rough_jasper_gemstone": "Rough Jasper Gemstone",
       "item.edges_of_light.rough_jade_gemstone": "Rough Jade Gemstone",
       "item.edges_of_light.mercenary_helmet": "Mercenary Helmet",
       "item.edges_of_light.flawed_amethyst_gemstone": "Flawed Amethyst Gemstone",
+      "item.edges_of_light.squirrel_spawn_egg": "Squirrel Spawn Egg",
       "item.edges_of_light.mercenary_axe": "Mercenary Axe",
       "item.edges_of_light.rough_amber_gemstone": "Rough Amber Gemstone",
       "item.edges_of_light.mercenary_leggings": "Mercenary Leggings",
@@ -205,6 +216,15 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Mobs",
+        "children": [
+          {
+            "name": "Squirrel",
+            "children": []
+          }
+        ]
       }
     ]
   },
@@ -225,5 +245,5 @@
     "modElementsPackage": "net.mcreator.edgesoflight",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200119518
+  "mcreatorVersion": 202200120510
 }
